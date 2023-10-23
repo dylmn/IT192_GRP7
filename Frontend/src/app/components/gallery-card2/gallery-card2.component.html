@@ -1,0 +1,14 @@
+<div class="gallery-card2-gallery-card" [ngClass]="rootClassName">
+  <div class="gallery-card2-container">
+    <div class="gallery-card2-container1">
+      <h2 class="gallery-card2-text">{{ title }}</h2>
+      <span class="gallery-card2-text1">{{ description }}</span>
+      <span class="gallery-card2-text2">SHOW MORE</span>
+    </div>
+  </div>
+  <img
+    [attr.alt]="image_alt"
+    [attr.src]="image_src"
+    class="gallery-card2-image"
+  />
+</div>
